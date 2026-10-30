@@ -1,0 +1,14 @@
+name: DonutRank
+version: '${project.version}'
+main: hu.donutrank.DonutRankPlugin
+api-version: '1.21'
+description: Egyedi rangok (media, staff, admin) ikonokkal
+commands:
+  donutrank:
+    description: DonutRank parancs
+    usage: /donutrank <give|remove|list|reload>
+    aliases: [drank]
+permissions:
+  donutrank.admin:
+    description: Rangok kezelése
+    default: op

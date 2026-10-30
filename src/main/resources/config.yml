@@ -1,0 +1,19 @@
+# MiniMessage formátum: https://docs.advntr.dev/minimessage/format.html
+# priority: tab listában a sorrend (kisebb = feljebb)
+#
+# FIGYELEM: a Minecraft alap betűtípusában nincs kamera ikon.
+# Ha igazi kamera ikont szeretnél (mint a DonutSMP-n), resource pack kell
+# egyedi betűtípussal, és annak a karakterét ide kell írni a "▣" helyére.
+ranks:
+  admin:
+    priority: 0
+    prefix: "<#a020f0>★</#a020f0> "
+  staff:
+    priority: 1
+    prefix: "<#00ff00>★</#00ff00> "
+  media:
+    priority: 2
+    prefix: "<#ff55ff>▣</#ff55ff> "
+
+# Chatben is megjelenjen az ikon a név előtt
+chat-prefix: true
